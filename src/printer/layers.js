@@ -60,6 +60,8 @@ export function createLayer(jobId, layerSpec, rootFrameState) {
       return createLayerWFS(jobId, layerSpec, rootFrameState);
     case 'GeoJSON':
       return createLayerGeoJSON(layerSpec, rootFrameState);
+    case 'Nothing':
+      console.log('Nothing');
   }
 }
 

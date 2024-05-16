@@ -85,7 +85,11 @@ export { downloadBlob } from './utils';
  */
 
 /**
- * @typedef {WmsLayer|XyzLayer|WmtsLayer|WfsLayer|GeoJSONLayer} Layer
+ * @typedef {Object} Nothing
+ */
+
+/**
+ * @typedef {WmsLayer|XyzLayer|WmtsLayer|WfsLayer|GeoJSONLayer|Nothing} Layer
  */
 
 /**
